@@ -1,0 +1,52 @@
+/* AddItem.css */
+.add-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .add-item-form {
+    display: flex;
+    gap: 10px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-item-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: border 0.3s;
+  }
+  
+  .add-item-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .add-item-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #007bff, #00bcd4);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s;
+  }
+  
+  .add-item-button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #0056b3, #0097a7);
+  }
+  
+  .add-item-button:active {
+    transform: scale(0.98);
+  }
+  
